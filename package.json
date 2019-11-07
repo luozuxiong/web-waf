@@ -1,0 +1,23 @@
+{
+  "name": "web-waf",
+  "version": "1.0.0",
+  "description": "the nodejs web application waf.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luozuxiong/web-waf.git"
+  },
+  "keywords": [
+    "waf",
+    "nodejs"
+  ],
+  "author": "luozuxiong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luozuxiong/web-waf/issues"
+  },
+  "homepage": "https://github.com/luozuxiong/web-waf#readme"
+}

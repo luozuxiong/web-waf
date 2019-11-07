@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "D": "^1.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1"
+  }
+}

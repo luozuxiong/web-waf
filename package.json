@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/luozuxiong/web-waf/issues"
   },
-  "homepage": "https://github.com/luozuxiong/web-waf#readme"
+  "homepage": "https://github.com/luozuxiong/web-waf#readme",
+  "devDependencies": {
+    "chalk": "^2.4.2"
+  }
 }

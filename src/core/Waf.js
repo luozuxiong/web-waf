@@ -4,7 +4,6 @@ class Waf {
     this.working();
   }
   working() {
-    console.log(this);
     this.next();
   }
 }

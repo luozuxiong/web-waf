@@ -8,7 +8,6 @@
   </head>
   <body>
     <script>
-      window.history.pushState("123", null, document.URL);
 
       var isSave = false;
       function save() {
@@ -16,14 +15,14 @@
       }
       window.onbeforeunload = function() {
         if (!isSave) {
-          return "当前数据还没有保存，关闭或刷新窗口会自动保存数据，是否继续?";
+          return "123456";
         } else {
           return "";
         }
       };
       window.onunload = function() {
         if (!isSave) {
-          return "当前数据还没有保存，关闭或刷新窗口会自动保存数据，是否继续?";
+          return "123456";
         } else {
           return "";
         }
@@ -33,7 +32,7 @@
       };
       window.onclose = function() {
         if (!isSave) {
-          return "当前数据还没有保存，关闭或刷新窗口会自动保存数据，是否继续?";
+          return "123456";
         } else {
           return "";
         }

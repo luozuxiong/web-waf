@@ -15,7 +15,7 @@ class ZipPlugin {
       console.log("beforeCompile", compilationParams);
     });
     compiler.hooks.entryOption.tap("MyPlugin", function(dir, entries) {
-      console.log(entryOption, entries);
+      console.log('entryOption', entries);
     });
     compiler.hooks.beforeRun.tap("MyPlugin", function(compiler) {
       console.log("beforeRun", compiler);
@@ -23,7 +23,7 @@ class ZipPlugin {
     compiler.hooks.beforeCompile.tap("MyPlugin", function(compilationParams) {
       console.log("beforeCompile", compilationParams);
     });
-    compiler.hooks.emit.asyncTap("MyPlugin", function(compilation) {
+    compiler.hooks.emit.tapAsync("MyPlugin", function(compilation) {
       console.log("beforeCompile", compilation);
     });
   }

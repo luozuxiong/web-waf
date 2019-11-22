@@ -1,5 +1,6 @@
 const path = require("path");
-const ZipPlugin = require("./plugins/zip-plugins");
+// const ZipPlugin = require("./plugins/zip-plugins");
+const IncrementBuildWebpackPlugin = require("./../../increment-build-webpack-plugin");
 module.exports = {
   entry: {
     "./pages/home/index.js": "./pages/home/index.js",
@@ -11,7 +12,11 @@ module.exports = {
     filename: "[name]",
     chunkFilename: "[name].js"
   },
-  plugins: [new ZipPlugin({})],
+  plugins: [
+    // new ZipPlugin({}),
+    new IncrementBuildWebpackPlugin()
+  ],
+  cache: true,
   mode: "production",
   module: {
     rules: [

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
+    "i": "cross-env BUILD_INCREMENT=true webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -20,5 +21,9 @@
     "react-dom": "^16.11.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "cross-env": "^6.0.3",
+    "tapable": "^1.1.3"
   }
 }

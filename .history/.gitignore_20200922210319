@@ -2,4 +2,4 @@ test/node_modules
 test/node_modules/**
 node_modules/**
 webpack/node_modules/**
-example/node_modules/**
+example/node_modules

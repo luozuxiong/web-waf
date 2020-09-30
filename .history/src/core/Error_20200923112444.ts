@@ -1,0 +1,1 @@
+export default WError extends Error{}

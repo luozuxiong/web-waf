@@ -1,0 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = {
+    'exceptionand500.exception.back': '返回首頁',
+    'exceptionand500.description.500': '抱歉，服務器出錯了。',
+};
+//# sourceMappingURL=zh-TW.js.map
